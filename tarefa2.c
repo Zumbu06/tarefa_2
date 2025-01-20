@@ -33,7 +33,6 @@ void turn_off_leds() {
     gpio_put(LED_GREEN, 0);
     gpio_put(LED_BLUE, 0);
     gpio_put(LED_RED, 0);
-}
 
 void activate_buzzer() {
     gpio_put(BUZZER, 1);
